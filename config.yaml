@@ -1,0 +1,26 @@
+baseUrl: "https://xiaoymin.github.io/"
+languageCode: "zh-CN"
+title: "八一菜刀"
+theme: "hyde"
+canonifyurls: true
+RSSUri: "feed.xml"
+MetaDataFormat: "yaml"
+hasCJKLanguage: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories1"
+  doc: "doc"
+
+menu:
+  main:
+  - identifier: about
+    name: 关于作者
+    pre: <i class='fa fa-heart'></i>
+    url: /about/
+    weight: -110
+params:
+  Keywords: "Hugo, 博客, 中文, 文档, 皮肤, 示例, 搭建, 教程, 部署"
+  Description: "顺着生命的河流一起流淌,体会身边的每份感动和感悟."
+  analytics: "UA-10147768-3"
+  author: "xiaoymin@foxmail.com"
