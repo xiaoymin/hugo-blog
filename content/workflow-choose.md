@@ -1,6 +1,9 @@
 ---
 title: "工作流引擎技术选型"
 date: 2018-01-11T12:14:29+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 ## Snaker

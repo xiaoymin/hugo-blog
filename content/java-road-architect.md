@@ -1,6 +1,9 @@
 ---
 title: "Java架构师之路"
 date: 2017-03-30T20:01:35+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 # Java架构师之路
 

@@ -1,6 +1,9 @@
 ---
 title: "Linux部署规范"
 date: 2016-11-08T16:21:35+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 # 前言
 

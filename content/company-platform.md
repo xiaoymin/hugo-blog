@@ -1,6 +1,9 @@
 ---
 title: "技术架构整理"
 date: 2017-05-08T16:23:10+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 ## 简介
 

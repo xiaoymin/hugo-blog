@@ -1,6 +1,9 @@
 ---
 title: "confluence 安装指南(Linux)"
 date: 2017-09-01T17:26:09+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 

@@ -1,6 +1,9 @@
 ---
 title: "swagger-bootstrap-ui 1.7.2 发布，前端 UI 实现"
 date: 2018-01-20T16:31:34+08:00
+tags:
+- softnews
+categories:  "softnews" 
 ---
 
 主要包含文档说明、在线调试两大核心功能

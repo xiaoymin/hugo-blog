@@ -1,6 +1,9 @@
 ---
 title: "PostgreSQL安装指南"
 date: 2017-09-07T13:18:24+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 

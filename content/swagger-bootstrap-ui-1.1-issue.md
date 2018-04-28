@@ -1,6 +1,9 @@
 ---
 title: "swagger-bootstrap-ui 1.1 发布，前端 UI 实现"
 date: 2017-04-27T17:38:15+08:00
+tags:
+- softnews
+categories:  "softnews" 
 ---
 swagger-bootstrap-ui 1.1 发布了。swagger-bootstrap-ui 是 Swagger 的前端 UI 实现，目的是替换 Swagger 默认的 UI 实现 Swagger-UI，使文档更友好一点儿
 

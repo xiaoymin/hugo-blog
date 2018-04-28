@@ -1,6 +1,9 @@
 ---
 title: "开源个人作品:swagger-bootstrap-ui"
 date: 2017-04-22T17:46:03+08:00
+tags:
+- opensource
+categories:  "opensource" 
 ---
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.xiaoymin/swagger-bootstrap-ui/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.xiaoymin/swagger-bootstrap-ui)

@@ -1,6 +1,9 @@
 ---
 title: "Java调用天气Webservice的小应用"
 date: 2015-05-27T23:03:50+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 废话不多说,直接贴代码：

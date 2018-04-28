@@ -1,6 +1,9 @@
 ---
 title: "Linux部署常用命令"
 date: 2017-03-30T11:54:35+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 # 目的

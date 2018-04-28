@@ -1,6 +1,9 @@
 ---
 title: "云数据中心sdk快速入门"
 date: 2017-12-17T20:21:26+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 

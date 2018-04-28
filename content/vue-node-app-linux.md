@@ -1,6 +1,9 @@
 ---
 title: "在Linux操作系统上部署VUE开发的node应用"
 date: 2018-01-26T11:23:05+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 

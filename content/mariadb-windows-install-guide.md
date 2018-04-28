@@ -1,6 +1,9 @@
 ---
 title: "MariaDB 安装指南(windows)"
 date: 2017-07-31T09:29:01+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 

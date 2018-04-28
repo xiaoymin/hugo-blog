@@ -1,6 +1,9 @@
 ---
 title: "前端本地nginx反向代理说明"
 date: 2016-11-15T13:10:57+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 

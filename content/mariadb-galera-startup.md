@@ -1,6 +1,9 @@
 ---
 title: "MariaDB Galera集群启动"
 date: 2016-10-12T19:39:24+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 

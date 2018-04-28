@@ -1,6 +1,9 @@
 ---
 title: "swagger-bootstrap-ui发布到Maven中央仓库"
 date: 2017-04-25T17:18:30+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 

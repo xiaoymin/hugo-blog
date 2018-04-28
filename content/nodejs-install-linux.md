@@ -1,6 +1,9 @@
 ---
 title: "node.js应用Linux安装部署"
 date: 2017-04-27T11:27:31+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 ## 目的

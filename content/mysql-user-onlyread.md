@@ -1,6 +1,9 @@
 ---
 title: "mysql数据库只读用户创建"
 date: 2018-01-30T21:18:06+08:00
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 
