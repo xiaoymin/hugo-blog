@@ -12,7 +12,7 @@ categories:  "blogs"
 
 1.安装 
 
-安装可以遵循官网的方法，在/etc/yum.repos.d写一个MariaDB.repo. 
+安装可以遵循官网的方法，在`/etc/yum.repos.d`写一个MariaDB.repo. 
 
 repo的内容如下： 
 
@@ -46,6 +46,84 @@ sudo yum install MariaDB-server MariaDB-client
 
 配置主要分为： 
 
-selinux设置：修改/etc/selinux/config，改成disabled; 
+selinux设置：修改`/etc/selinux/config`，改成disabled; 
 
 iptables设置：如果嫌麻烦就直接关闭防火墙，不然那要开放 3306，4567，4568，4444四个端口。 
+
+
+3.配置文件
+
+主要是配置`/etc/my.cnf.d/server.cnf`
+```shell
+
+[galera]
+
+# Mandatory settings
+
+wsrep_on=ON
+
+wsrep_provider=/usr/lib64/galera/libgalera_smm.so
+
+wsrep_cluster_address=gcomm://open11,open134,open246
+
+binlog_format=row
+
+default_storage_engine=InnoDB
+
+innodb_autoinc_lock_mode=2
+
+```
+
+还有就是配置用户和组，然后chown相应的文件
+
+```shell
+groupadd mariadb
+
+useradd -g mariadb mariadb
+
+chown -R  mariadb:mariadb  /var/data/mysql
+```
+
+------
+
+4.启动
+
+第一台启动的时候：
+
+```shell
+mysqld --wsrep-new-cluster
+```
+
+其他机器启动：
+
+```shell
+mysqld --wsrep_cluster_address=gcomm://s91,s71,s240
+
+mysqld --wsrep_cluster_address=gcomm://sv203,sv204,sv205
+```
+
+5.MariaDB Galera Cluster 参数
+
+使用
+
+```sql
+SHOW VARIABLES LIKE 'wsrep%'
+```
+
+以下是特别的几个：
+
+```sql
+SHOW GLOBAL STATUS LIKE ‘wsrep_cluster_state_uuid’;
+```
+
+查看集群的UUID
+
+```sql
+show global status like 'wsrep_cluster_status';
+
+primary-
+
+non-Primary
+
+```
+
