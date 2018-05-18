@@ -1,7 +1,9 @@
 ---
 title: "Mariadb创建索引"
 date: 2018-05-18T15:58:18+08:00
-draft: true
+tags:
+- blogs
+categories:  "blogs" 
 ---
 
 
