@@ -89,7 +89,13 @@ ALTER USER postgres WITH PASSWORD '新密码';
 
 操作完成的，执行：\q命令回车退出。   
 
-最后,恢复pg_hba.conf设置为md5并重启服务 
+最后,恢复pg_hba.conf设置为md5并重启服务
+
+## 重启数据库 
+
+```sql
+./usr/pgsql-9.5/bin/pg_ctl restart -D /var/lib/pgsql/9.5/data
+```
 
 ## 创建数据库
 
@@ -103,6 +109,14 @@ postgres=# CREATE DATABASE testdb OWNER dbuser;
 
 ```sql
 postgres=# GRANT ALL PRIVILEGES ON DATABASE testdb TO dbuser;
+```
+
+## 删除数据库
+
+例如删除testdb：
+
+```sql
+postgres=# DROP DATABASE testdb;
 ```
 
 ## 备份数据
